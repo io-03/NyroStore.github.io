@@ -202,7 +202,7 @@ body.light-theme .politic__subtitle {
     }
 
     .categories-grid {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
         gap: 20px;
     }
 
@@ -226,7 +226,7 @@ body.light-theme .politic__subtitle {
     }
 
     .services-grid {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
         gap: 20px;
     }
 
@@ -264,7 +264,7 @@ body.light-theme .politic__subtitle {
     }
 
     .reviews-grid {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
         gap: 20px;
     }
 
@@ -279,7 +279,7 @@ body.light-theme .politic__subtitle {
 
 @media (max-width: 600px) {
     .products-grid {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
         gap: 0;
     }
 
@@ -375,5 +375,9 @@ body.light-theme .politic__subtitle {
 
     .services-grid {
         margin-top: 20px;
+    }
+     .products-grid {
+        grid-template-columns: 1fr; !important
+        gap: 0;
     }
 }
