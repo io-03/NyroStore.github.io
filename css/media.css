@@ -197,7 +197,7 @@ body.light-theme .politic__subtitle {
     }
 
     .products-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         gap: 15px;
     }
 
@@ -259,7 +259,7 @@ body.light-theme .politic__subtitle {
     }
 
     .products-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         gap: 10px;
     }
 
