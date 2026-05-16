@@ -11,9 +11,23 @@
     --padding-components: 20px 30px;
 }
 
+*,
+*::before,
+*::after {
+    transition: background-color 0.3s ease, color 0.3 ease, border-color 0.3s ease, opacity 0.3s ease;
+}
+
 .container {
     max-width: 1500px;
     margin: 0 auto;
+}
+
+#chengeTheme {
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: var(--transition);
 }
 
 body {
@@ -22,12 +36,14 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-color: #0d0f12;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .header {
     background-color: var(--main-color);
     padding: 15px 0;
 }
+
 
 .header__wrapper {
     display: flex;
@@ -522,7 +538,7 @@ main {
 
 }
 
-.subscribe__text{
+.subscribe__text {
     color: var(--text-secondary-color);
 }
 
@@ -575,7 +591,7 @@ main {
     color: var(--hover-accent-color);
 }
 
-.subscribe__form-btn:active{
+.subscribe__form-btn:active {
     transform: scale(0.95);
     background-color: var(--text-main-color);
     border: 1px solid var(--text-main-color);
