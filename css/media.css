@@ -7,6 +7,7 @@
         color-scheme: light;
     }
 
+
     body {
         background-color: var(--text-secondary-color);
     }
@@ -30,6 +31,7 @@
     .header,
     .footer {
         background-color: var(--text-main-color);
+
     }
 
     .footer a {
@@ -141,6 +143,7 @@ body.light-theme .politic__subtitle {
         grid-template-columns: repeat(4, 1fr);
         gap: 25px;
     }
+
 }
 
 @media (max-width: 1310px) {
@@ -152,11 +155,14 @@ body.light-theme .politic__subtitle {
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
     }
+
 }
+
 
 @media (max-width: 1110px) {
     .container {
         max-width: 900px;
+
     }
 
     .hero__title {
@@ -170,23 +176,63 @@ body.light-theme .politic__subtitle {
 }
 
 @media (max-width: 910px) {
-    .footer__wrapper-top {
-        flex-direction: column;
-        gap: 30px;
+    .container {
+        max-width: 700px;
     }
 
-    .footer__menu-list {
-        align-items: start;
+    .header__menu-list {
+        display: none;
     }
 
-    .footer__contacts {
-        align-items: start;
+    .header__cta {
+        display: none;
     }
 
-    .footer__wrapper-bottom {
-        flex-direction: column;
-        gap: 10px;
-        align-items: start;
+    .header__menu-burger {
+        display: block;
+    }
+
+    .hero {
+        background-position: left;
+    }
+
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .categories-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .category-card {
+        height: 200px;
+        padding: 20px;
+    }
+
+    .category-card__title {
+        font-size: 18px;
+    }
+
+    .reviews-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .services-section {
+        padding: 50px 0;
+        padding-bottom: 100px;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .brands-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
     }
 }
 
@@ -222,12 +268,14 @@ body.light-theme .politic__subtitle {
         gap: 20px;
     }
 
+
     .brands-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
 
 }
+
 
 @media (max-width: 600px) {
     .products-grid {
@@ -245,6 +293,7 @@ body.light-theme .politic__subtitle {
         padding-right: 15px;
     }
 }
+
 
 @media (max-width: 495px) {
     .hero {
