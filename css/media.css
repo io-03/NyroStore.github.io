@@ -377,7 +377,7 @@ body.light-theme .politic__subtitle {
         margin-top: 20px;
     }
      .products-grid {
-        grid-template-columns: 1fr; !important
+        grid-template-columns: 1fr !important;
         gap: 0;
     }
 }
